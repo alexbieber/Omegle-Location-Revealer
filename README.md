@@ -5,14 +5,7 @@ Find an ip address, and the location of someone on omegle.
 <p align="center">
   <img src="https://www.youtube.com/watch?v=Ukssw1Bt2tw">
 </p>
-
-A video showing the expression of the stranger!
-----------------------------------------
-
-Vuln Web App:
-
-https://www.youtube.com/watch?v=Ukssw1Bt2tw
-<br>
+[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=Ukssw1Bt2tw "Now in Android: 55")
 
 
 ## How does omegle work to have such a big flaw?
