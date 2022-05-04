@@ -3,10 +3,8 @@
 Find an ip address, and the location of someone on omegle.
 
 <p align="center">
-  <img src="https://www.youtube.com/watch?v=Ukssw1Bt2tw">
-</p>
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ukssw1Bt2tw/0.jpg)](https://www.youtube.com/watch?v=Ukssw1Bt2tw)
-
+  <img src="https://c.tenor.com/sZe9dXMQCucAAAAM/r2h-oh-re-maiya.gif">
+  </p>
 
 
 ## How does omegle work to have such a big flaw?
