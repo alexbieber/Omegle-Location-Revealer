@@ -5,7 +5,8 @@ Find an ip address, and the location of someone on omegle.
 <p align="center">
   <img src="https://www.youtube.com/watch?v=Ukssw1Bt2tw">
 </p>
-[<img src="https://www.youtube.com/watch?v=Ukssw1Bt2tw" width="50%">](https://www.youtube.com/watch?v=Ukssw1Bt2tw "Now in Android: 55")
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ukssw1Bt2tw/0.jpg)](https://www.youtube.com/watch?v=Ukssw1Bt2tw)
+
 
 
 ## How does omegle work to have such a big flaw?
