@@ -1,9 +1,10 @@
 # Omegle-Location-Revealer🔴🔴🔴🔴✔
 # Omegle Location by AlexBieber ---BEST OMEGLE LOCATION TRACKER EVER!
 Find an ip address, and the location of someone on omegle.
+# STRANGERS REACTION BE LIKE ->
 
 <p align="center">
-  <img src="https://c.tenor.com/sZe9dXMQCucAAAAM/r2h-oh-re-maiya.gif">
+  <img src="https://c.tenor.com/0Ll8B73iS30AAAAd/girl-shocked.gif">
   </p>
 
 
