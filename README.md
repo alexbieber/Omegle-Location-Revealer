@@ -11,7 +11,7 @@ A video showing the expression of the stranger!
 
 Vuln Web App:
 
-https://user-images.githubusercontent.com/www.youtube.com/watch?v=Ukssw1Bt2tw
+https://www.youtube.com/watch?v=Ukssw1Bt2tw
 <br>
 
 
