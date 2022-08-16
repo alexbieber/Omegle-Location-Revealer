@@ -26,6 +26,10 @@ Find an ip address, and the location of someone on omegle.
 3) NOW GO TO CONSOLE AND COPY PASTE THE "omegle.js" FILE. AND HIT ENTER ! THATS IT!
 4) NOW SHOCK THEM ON YOUR OWN RISK!
 
+## VIDEO TUTORIAL FOR BEGINNERS-
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/KaeWtBs0kNw/0.jpg)](https://www.youtube.com/watch?v=KaeWtBs0kNw)
+
 
 ## Does it work in all cases?
 Of course not, otherwise it will be too good first for people who use vpn, suddenly it does not give a real IP address so it is not its address. Otherwise since the fiber has become democratized, the IP address no longer gives where the person with this IP address lives, but the server address, but with ADSL you could have a 98% chance of knowing his neighborhood and even its location.
