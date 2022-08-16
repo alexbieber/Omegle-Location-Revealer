@@ -32,7 +32,7 @@ Find an ip address, and the location of someone on omegle.
 
 
 ## Does it work in all cases?
-Yeah --the accuracy is 99%, otherwise it will be too good first for people who use vpn, suddenly it does not give a real IP address so it is not its address. Otherwise since the fiber has become democratized, the IP address no longer gives where the person with this IP address lives, but the server address, but with ADSL you could have a 98% chance of knowing his neighborhood and even its location.
+Yeah --the accuracy is 99% except 1%  cases, otherwise it will be too good first for people who use vpn, suddenly it does not give a real IP address so it is not its address. Otherwise since the fiber has become democratized, the IP address no longer gives where the person with this IP address lives, but the server address, but with ADSL you could have a 98% chance of knowing his neighborhood and even its location.
 Otherwise people who use 4G, 3G etc, are not immune since it goes directly to the terminal next to your home, so it's easy to know in which neighborhood you live!
  ##
 
