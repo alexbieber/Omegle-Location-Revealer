@@ -1,4 +1,4 @@
-/// L14 <hackthetrack1234@gmail.com.com>
+/// Alexbieber <hackthetrack1234@gmail.com.com>
 /// https://github.com/alexbieber/Omegle-Location-Revealer
 /// Created the 04/05/2022
 
@@ -40,7 +40,7 @@ City: ${json.city}
 District: ${json.district}
 Lat / Long: (${json.latitude}, ${json.longitude})
 -------------------------------
-by L14 :)
+by AlexBieber :)
           `;
             console.log(output);
         })
