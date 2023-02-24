@@ -1,4 +1,4 @@
-/// L14 <l14ms1@protonmail.com>
+/// L14 <hackthetrack1234@gmail.com.com>
 /// https://github.com/alexbieber/Omegle-Location-Revealer
 /// Created the 04/05/2022
 
