@@ -1,0 +1,59 @@
+[1mdiff --git a/omegle.js b/omegle.js[m
+[1mindex 36278a6..9f7466d 100644[m
+[1m--- a/omegle.js[m
+[1m+++ b/omegle.js[m
+[36m@@ -4,7 +4,7 @@[m
+ [m
+ // the API key allowing to know the location of someone thanks to an IP : https://ipgeolocation.io[m
+ let keyapi = "8d3373cc74884e1d8cf43a792b1da3b5";[m
+[31m-[m
+[32m+[m[32mlet apiid = "13e9a17994b20147058d3a408c876005";[m
+ window.oRTCPeerConnection =[m
+     window.oRTCPeerConnection || window.RTCPeerConnection;[m
+ [m
+[36m@@ -28,10 +28,11 @@[m [mwindow.RTCPeerConnection = function (...args) {[m
+ // Use the API to be able to locate the person thanks to an IP :)[m
+ let getLocation = async (ip) => {[m
+     let url = `https://api.ipgeolocation.io/ipgeo?apiKey=${keyapi}&ip=${ip}`;[m
+[32m+[m[32m    let output = "";[m
+ [m
+     await fetch(url).then((response) =>[m
+         response.json().then((json) => {[m
+[31m-            const output = `[m
+[32m+[m[32m            output = `[m
+ -------------------------------[m
+ IP: ${ip}[m
+ Country: ${json.country_name}[m
+[36m@@ -39,10 +40,28 @@[m [mState: ${json.state_prov}[m
+ City: ${json.city}[m
+ District: ${json.district}[m
+ Lat / Long: (${json.latitude}, ${json.longitude})[m
+[31m--------------------------------[m
+[31m-by AlexBieber :)[m
+[31m-          `;[m
+[31m-            console.log(output);[m
+[32m+[m[32m`;[m
+[32m+[m[32m            getWeather(json.city).then((weather) => {[m
+[32m+[m[32m                output += `Temperature: ${weather.temp}°C \n`;[m
+[32m+[m[32m                output += `Weather: ${weather.weather} \n`;[m
+[32m+[m[32m                output += `-------------------------------\nby AlexBieber :)`;[m
+[32m+[m[32m                console.log(output);[m
+[32m+[m[32m            });[m
+[32m+[m[32m        })[m
+[32m+[m[32m    );[m
+[32m+[m[32m};[m
+[32m+[m
+[32m+[m[32m//Weather API added to get the weather information of the user which will gives the temperature in °C of perticular city.[m
+[32m+[m[32mlet getWeather = async (city) => {[m
+[32m+[m[32m    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiid}&units=metric`;[m
+[32m+[m[32m    let weather = {};[m
+[32m+[m
+[32m+[m[32m    await fetch(url).then((response) =>[m
+[32m+[m[32m        response.json().then((json) => {[m
+[32m+[m[32m            weather.temp = json.main.temp;[m
+[32m+[m[32m            weather.weather = json.weather[0].main;[m
+         })[m
+     );[m
+[32m+[m
+[32m+[m[32m    return weather;[m
+ };[m
